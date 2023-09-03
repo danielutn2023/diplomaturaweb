@@ -1,1 +1,10 @@
 .
+
+Listado de compras: 
+
+pan
+papas fritas
+chocolate
+1kg pomelo
+1 azucar
+
