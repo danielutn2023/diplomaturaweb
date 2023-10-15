@@ -1,7 +1,28 @@
 
-h4 {
+
+header {
+ 
+  background: linear-gradient (to bottom , red, white)  ;
+
+  }
+
+
+
+h2 {
+ 
+  background: linear-gradient (to right , red, white)  ;
+
+  }
+
+
+h5 {
+ 
   color: #F39C12;
+
+  
 }
+
+
 
 
 li {
@@ -11,6 +32,10 @@ li {
 
 p {
   color: #AF7AC5;
+    
+  column-count:4;
+   column-grap: 40px;
+  
 }
 
 
@@ -19,10 +44,20 @@ border-top: 4px solid #aabcfe; border-bottom: 1px solid #fff; color: #039; }
 
 
 h3 {
-  color: #039;
+  
+  
+  color: #AF7AC5;
+  
+  font-family: 'Space Mono', monospace;
+   font-weight: 700;
+  
 }
-h5 {
-  color: #85C1E9;
+
+
+
+
+h4 {
+  color: #F39C12;
 }
 
 
