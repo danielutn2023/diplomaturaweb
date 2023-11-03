@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Ingrese Metros y Determinaremos el medio de transporte apropiado  </title>
+	
+</head>
+
+<body>
+<br>
+ 
+ <p>Determinaremos el medio de transporte apropiado </p>
+<br>
+    <script>
+        metros = parseInt(prompt('Determinaremos el medio de transporte apropiado de acuerdo al siguiente ingreso de metros, Ingrese metros :', ''));
+
+        if ( metros >= 0 && metros < 1000 )   { // || OR
+            document.write('corresponde a pie.');
+			
+			        } else if ( metros >= 1000 && metros <= 10000  )
+
+		{
+            document.write('corresponde en bicicleta.');
+			
+			
+        } else if (   metros >= 10000 && metros < 30000    ) {
+           
+		   document.write('corresponde en colectivo.');
+			
+			} else if ( metros >= 30000 && metros < 100000   ) {
+            
+			document.write('corresponde en auto.');
+			
+			
+			
+        } else {
+            document.write('corresponde si o si en avion por la distancia mayor a 1000000 Metros.');
+        }
+  
+
+
+  </script>
+
+</body>
+
+</html>
